@@ -1,0 +1,238 @@
+<html>
+    <head>
+
+        <title>DESIGN</title>
+
+        <style>
+
+            body {
+                margin-top:10em;
+                margin-left:7.3em;
+                margin-right: 20em;
+                background-color:#C9C5BA;
+            }
+
+            /*
+            h1 {
+            color: black;
+            font-family: 'Montserrat', sans-serif;
+            font-weight:bold;
+            font-size: 500%;
+            text-align: center;
+            width:1200px;
+            margin-bottom:-33px;
+
+
+            } 
+
+            h2 {
+            align-content: center;
+            text-align: center;
+            position: relative;
+            top:30px;
+            left: 100px;
+            margin-top:-100;
+            }
+            */
+
+
+            #grid {
+                display: grid ;
+                grid-template-columns: [start] 1fr 2fr 3fr [middle] 4fr 5fr 6fr [end];
+                grid-template-rows: 1fr;
+                grid-auto-rows: 500px ;
+            }
+
+            section.name1 {
+                color: black;
+                font-family: Helvetica;
+                size: 100%;
+                text-align: center;
+                margin-left: 200;
+                margin-bottom: 20;
+                margin-top: 30;
+                font-size: 15;
+                font-weight: 500;
+                position:relative;
+                bottom:5px;
+                left: 0px;
+            } 
+
+            section.name2 {
+                color: black;
+                font-family: Helvetica;
+                size: 100%;
+                text-align: center;
+                margin-left: 200;
+                margin-bottom: 100;
+                font-size: 15;
+                font-weight: 500;
+                position:relative;
+                bottom:-25px;
+                left: -5px;
+
+            } 
+
+            section.name3 {
+                color: black;
+                font-family: Helvetica;
+                size: 100%;
+                text-align: center;
+                margin-left: 200;
+                margin-bottom: 100;
+                font-size: 15;
+                font-weight: 500;
+                position:relative;
+                bottom:-25px;
+                left: -5px;
+
+
+            }
+
+
+            section.logo {
+                align-content: center;
+                margin-left:300px;
+                margin-top:-50;
+                position: relative;
+                bottom:180;
+                left:275;
+            }
+
+            section.full_column {
+                grid-column-start: 3fr;
+                grid-column-end: end;
+                align-content: center;
+                margin-left: 100px;  
+                border: 1px solid #A7A666 ;
+                width:700;
+                position:relative;
+                left:150;
+            }
+
+            section.full_column_2 {
+                grid-column-start: 3fr;
+                grid-column-end: end;
+                grid-row-start: 5fr;
+                align-content: center;
+                margin-left: 100px;
+                margin-top: 60;
+                border: 1px solid #A7A666 ;
+                width:700;
+                position:relative;
+                left:150;
+            }
+
+            section.full_column_3 {
+                grid-column-start: 3fr;
+                grid-column-end: end;
+                grid-row-start: 5fr;
+                align-content: center;
+                margin-left: 100px;
+                border: 1px solid #A7A666 ;
+                width:700;
+                position:relative;
+                left:150;
+
+            }
+
+
+            section.logo {
+                align-content: center;
+                margin-left:300px;
+                margin-top:-50;
+                position: relative;
+                bottom:180;
+                left:275;
+
+            }
+
+            #nav {
+
+                text-align: center;
+                width: 1166px;
+                display:inline-block;
+                padding:1.7%;
+                margin-bottom: 75px;
+                margin-top: 33;
+                position: relative;
+                top:-50;
+
+            }
+
+            a:link{
+
+                width:800px;
+                height:800px;
+                color:black;
+                text-decoration: none;
+                font-family: helvetica;
+                font-size:10px;
+                float:center; 
+                text-align: center;
+                border: 1px solid #000;
+                margin-left: 5px;
+                margin-right: 5px;
+                padding:2;
+
+            }
+
+
+
+            a:visited {
+                color:black;
+            }
+
+
+            a:hover {
+                color: #A7A666;
+            }
+            
+            #design {
+                color:#A7A666;
+            }
+
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <!--
+<h2><img src="static1.squarespace.png" width="50"></h2>
+
+<h1>RY WONG</h1>
+-->
+
+        <ul id="nav">
+            <a href="photo.html">PHOTO</a>
+            <a id ="design" href="design.html">DESIGN</a>
+            <a href="about.html">ABOUT</a>
+            <a href="store.html">STORE</a>
+        </ul>
+
+        <div>
+
+            <section class="logo"><img src="static1.squarespace.png" width="50"></section>
+
+            <section class="full_column">
+                <img src="DSC00526-64.jpg" width="700" height="450"></section>
+
+            <section class="name1"><p1>PRONE TO WANDER</p1></section>
+
+            <section class="full_column_2"><img src="DSC05203-6.jpg" width="700" height="450"></section>
+
+            <section class="name2"><p2>IN GOOD SPIRITS</p2></section>
+
+            <section class="full_column_3"><img src="imagine+boston3.jpg" width="700" height="450"></section>
+
+            <section class="name3"><p3>IMAGINE BOSTON</p3></section>
+
+
+        </div>
+
+
+    </body>
+
+</html>
